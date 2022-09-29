@@ -1,0 +1,5 @@
+package oop1;
+// indidual customer da bir customerdır
+public class IndividualCustomer extends Customer {
+
+}

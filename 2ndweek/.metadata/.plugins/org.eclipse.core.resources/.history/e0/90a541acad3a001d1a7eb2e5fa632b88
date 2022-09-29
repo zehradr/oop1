@@ -1,0 +1,28 @@
+package oop1;
+					//kodları düzenlemek için sağ tık->source->format
+public class Main {
+
+	public static void main(String[] args) {
+
+		String mesaj = "Vade oranı";
+
+		
+		
+		Product product1 = new Product();
+		product1
+	
+		Product product2 = new Product();
+
+		Product product3 = new Product();
+		
+
+		Product[] products = {product1,product2,product3};
+		
+		System.out.println("<ul>");//ul html etiketi listeler için
+		for(Product product : products) { //products'ları tek tek gez. Önce product1'i gez işlemlerini yap sonra diğerleri yani döngü yap
+			System.out.println("<li>" +product.name + "</li>");
+		}
+		System.out.println("</ul>");
+	}
+
+}

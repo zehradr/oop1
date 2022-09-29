@@ -1,0 +1,19 @@
+package oop1;
+
+//PascalCase isimlendirme standartı ilk harflar büyük
+//Ben burada ürünü tanımlamıyorum onu tanımlayabilecek ortamı hazırlıyorum
+// Product diye bir nesnem var içinde de name,indirim oranı falan gibi bilgiler tutmak istiyorum
+
+//mavi olanlar bizim verdiklerimiz önündekiler veri tipleri
+//class'ın fieldları yani alanları camelCase
+
+
+public class Product {
+	String name;
+	double unitPrice;
+	double discount;
+	String[] imageUrl;
+	int unitInStock
+	
+	
+}

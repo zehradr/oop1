@@ -1,0 +1,11 @@
+package oop1;
+
+public class Main {
+	//class demek bir nesne o nesnenin bilgilerini tutuyor.
+	// 2 tip class var biri özellik tutucu olanlar biri de operasyon tutucu olanlar 
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

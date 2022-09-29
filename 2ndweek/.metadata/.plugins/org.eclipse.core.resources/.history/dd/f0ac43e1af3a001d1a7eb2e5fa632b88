@@ -1,0 +1,63 @@
+package oop1;
+//class demek bir nesne o nesnenin bilgilerini tutuyor.
+
+// 2 tip class var biri özellik tutucu olanlar biri de operasyon tutucu olanlar 
+//PascalCase isimlendirme standartı ilk harflar büyük
+//Ben burada ürünü tanımlamıyorum onu tanımlayabilecek ortamı hazırlıyorum
+// Product diye bir nesnem var içinde de name,indirim oranı falan gibi bilgiler tutmak istiyorum
+
+//mavi olanlar bizim verdiklerimiz önündekiler veri tipleri
+//class'ın fieldları yani alanları(name fieldı, discount fieldı..) camelCase
+
+// private bu class'a özel ve bu komutla yazdığımda hem okunabilsin hem yazılabilsin istiyorum
+
+public class Product {
+	private String name;
+	private double unitPrice;
+	private double discount;
+	private String imageUrl;
+	private int unitInStock;
+
+	//sağ tıkla->source->genetate settger and getters ile bunları getirdim
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getUnitPrice() {
+		return unitPrice;
+	}
+
+	public void setUnitPrice(double unitPrice) {
+		this.unitPrice = unitPrice;
+	}
+
+	public double getDiscount() {
+		return discount;
+	}
+
+	public void setDiscount(double discount) {
+		this.discount = discount;
+	}
+
+	public String getImageUrl() {
+		return imageUrl;
+	}
+
+	public void setImageUrl(String imageUrl) {
+		this.imageUrl = imageUrl;
+	}
+
+	public int getUnitInStock() {
+		return unitInStock;
+	}
+
+	public void setUnitInStock(int unitInStock) {
+		this.unitInStock = unitInStock;
+	}
+
+}

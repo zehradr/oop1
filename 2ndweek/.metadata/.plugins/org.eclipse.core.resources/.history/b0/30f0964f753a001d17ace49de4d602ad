@@ -1,0 +1,29 @@
+package oop1;
+
+public class Main {
+	
+
+	public static void main(String[] args) {
+		
+		String mesaj = "VAde oranı";
+		
+		// üstteki gibi veri tipine string atayamazsın çünkü Product bir class peki class'a nasıl veri atarız
+		//bir class değişkeni oluşturmanın yöntemi aşağıdaki gibidir 
+		
+		Product product1 = new Product();
+				//bu işleme set yani değer atıyoruz
+		product1.name = "Delonghi Kahve Makinesi";
+		product1.unitPrice = 7500;
+		product1.discount = 7;
+		product1.unitInStock = 3;
+		product1.imageUrl = "bilmemne.jpg";
+		
+		
+				//burada da değer atama değil okuma yapıyorum buna da get işlemi diyoruz
+				// değer atama =set , okumaya get diyoruz
+		System.out.println(product1.name);
+		System.out.println();
+		
+	}
+
+}

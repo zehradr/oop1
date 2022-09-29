@@ -1,0 +1,26 @@
+package oop1;
+
+public class Main {
+	
+
+	public static void main(String[] args) {
+		
+		String mesaj = "VAde oranı";
+		
+		// üstteki gibi veri tipine string atayamazsın çünkü Product bir class peki class'a nasıl veri atarız
+		//bir class değişkeni oluşturmanın yöntemi aşağıdaki gibidir 
+		
+		Product product1 = new Product();
+		product1.name = "Delonghi Kahve Makinesi";
+		product1.unitPrice = 7500;
+		product1.discount = 7;
+		product1.unitInStock = 3;
+		product1.imageUrl = "bilmemne.jpg";
+		
+		
+		
+		
+		
+	}
+
+}
